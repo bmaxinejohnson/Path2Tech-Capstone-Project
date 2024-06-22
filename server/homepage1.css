@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shrikhand', cursive;
+  }
+  
+  .container {
+    width: 1441px;
+    height: 533px;
+    position: relative;
+    background: #FAA7CA;
+  }
+  
+  .background {
+    width: 1440px;
+    height: 533px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #F8EAF0;
+  }
+  
+  .title {
+    width: 861px;
+    height: 124px;
+    left: 31px;
+    top: 27px;
+    position: absolute;
+    color: #333333;
+    font-size: 25px;
+    font-family: 'Shrikhand', cursive;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .subtitle {
+    width: 673px;
+    height: 244px;
+    left: 30px;
+    top: 144px;
+    position: absolute;
+    color: #FC066D;
+    font-size: 80px;
+    font-family: 'Koulen', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 60px;
+    word-wrap: break-word;
+  }
+  
+  .side-panel {
+    width: 602px;
+    height: 533px;
+    left: 839px;
+    top: 0;
+    position: absolute;
+    background: #F55880;
+  }
+  
+  .rotate-text {
+    width: 533px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: rotate(90deg) translate(0, -50%);
+    transform-origin: left top;
+    text-align: right;
+    color: #333333;
+    font-size: 31px;
+    font-family: 'Shrikhand', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .our-recipes {
+    left: 791px;
+    top: 20px;
+    position: absolute;
+  }
+  
+  .our-recipes span {
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .our-recipes .highlight {
+    color: #F55880;
+  }
+  
+  .our-recipes .recipes {
+    color: #F8EAF0;
+  }
+  
+  .contact {
+    width: 152px;
+    left: 951px;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: #F8EAF0;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .our-story {
+    left: 649px;
+    top: 20px;
+    position: absolute;
+    color: #F55880;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .description {
+    width: 619px;
+    height: 267px;
+    left: 30px;
+    top: 273px;
+    position: absolute;
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .sign-out {
+    width: 230px;
+    height: 97px;
+    left: 1064px;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: #F8EAF0;
+    font-size: 20px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .image {
+    width: 300.99px;
+    height: 483.01px;
+    background: linear-gradient(0deg, transparent 0%, transparent 100%);
+    border-radius: 45px;
+  }
+  
