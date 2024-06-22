@@ -1,0 +1,21 @@
+.EasyInclusiveDeliciousWelcomeToAWorldOfFlavorOurDiverseRecipeCollection {
+    width: 751px;
+    height: 390px;
+}
+
+.title{
+    color: #FC066D;
+    font-size: 64px;
+    font-family: Koulen;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.description{
+    color: #333333;
+    font-size: 20px;
+    font-family: Amiko;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
