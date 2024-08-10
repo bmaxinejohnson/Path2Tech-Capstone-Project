@@ -1,10 +1,9 @@
 import React from 'react'
-
-import Secondpart from '../components/Secondpart'
+import OurStory from '../components/OurStory'
 
 const Landing = () => {
   return (
-    <Secondpart/>
+    <OurStory/>
 
   )
 }
