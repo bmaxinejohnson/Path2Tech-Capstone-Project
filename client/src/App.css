@@ -81,11 +81,181 @@ font-size: 64px;
   
 }
 
-.App{
-
-  height: 100vh;
+.App {
+  padding: 40px;
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #a1c75f;
   width: 100vw;
+  
+  
 }
+
+
+.split-background {
+  display: flex;
+  flex: 1;
+  height: 50vh;
+}
+
+
+.left-side {
+  font-family: 'Koulen';
+  flex: 2;
+  background-color: #f8eaf0; 
+  color: #fc066d; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding-left: 5%;
+}
+
+
+.right-side {
+  flex: 1;
+  background-color: #fc066d; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.right-side h1 {
+  font-family: 'Koulen'; 
+  font-size: 36px; 
+  color:#f8eaf0; 
+  text-transform: uppercase; 
+  margin-bottom: 10px; 
+  text-align: center;
+}
+
+.right-side a {
+  
+  font-size: 18px;
+  color: #f8eaf0; 
+  text-decoration: none; 
+  margin-bottom: 20px; 
+  display: block; 
+  text-align: center; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.links {
+  position: absolute;
+  top: 20px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex;
+  gap: 20px; 
+}
+
+.links a {
+  color: #f8eaf0;
+  text-decoration: none;
+  font-size: 18px; 
+  text-transform: uppercase;
+  font-family: 'Koulen';
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+
+
+.fork-image {
+  width: 200px;  
+  height: auto;  /* Maintain aspect ratio */
+  position: absolute;
+  left: -96.5px; /* Adjust this value as needed to move the image left */
+  top: 57.4%; /* Vertically center the image */
+  transform: translateY(-50%); /* Adjusts the image to be centered vertically */
+}
+
+.App-header,
+.App-main {
+  width: 100%;
+}
+
+button {
+  font-family: 'Amiko' ;
+  background-color: #f8eaf0;
+  border: none;
+  border-radius: 14px;
+  color: black;
+  padding: 6px 15px;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute; /* Position the button */
+  bottom: 50px; /* Move it closer to the bottom of the container */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-weight: bold;}
+
+button:hover {
+  background-color: #ffffff; /* Changes background color on hover */
+  color: #fc066d; /* Changes text color on hover */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for both color and background-color */
+}
+
+
+/* Footer should stay at the bottom and take up half of the page height */
+.App-footer {
+  background-image: linear-gradient(
+    180deg,
+    #fff 19%,
+    rgba(253, 225, 233, 0.89) 53.17%,
+    rgba(250, 174, 194, 0.71) 86.17%,
+    rgba(245, 88, 129, 0.4)
+  );
+  color: white;
+  padding: 10px;
+  text-align: center;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+}
+
+/* Font styling for the header text */
+.header-text {
+  font-size: 60px;
+
+  text-align: left;
+}
+
+.nav-links .header-subtext {
+  font-family: 'Shrikhand';
+  font-size: 15px;
+  color: #282c34; /* Change this color to dark gray or black to stand out against light pink */
+  text-align: left;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links a {
+  color: #282c34; 
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
 
 
 
