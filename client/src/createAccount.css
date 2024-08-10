@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
+
+
+.CreateAnAccountPage {
+    width: 1480px;
+    height: 1024px;
+    position: relative;
+    background: linear-gradient(180deg, #EE92B9 0%, #F1A4C4 55%, #FFFFFF 100%);
+  }
+  
+  .Unnamed4Copy1 {
+    width: 691px;
+    height: 897px;
+    left: 781px;
+    top: 144px;
+    position: absolute;
+  }
+  
+  .CreateAnAccount {
+    left: 10px;
+    top: 48px;
+    text-align: center; 
+    color: #333333;
+    font-size: 96px;
+    font-family: 'Abhaya Libre SemiBold';
+    font-weight: 500;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+
+
+.form-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 90px;
+  height: 30vh;
+  width: 90vw;
+  margin-left: 60px; 
+  
+}
+
+.form-heading {
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #333;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+.form-group input,
+.form-group select {
+  width: 25vw;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 80px;
+  font-size: medium;
+}
+
+button {
+  background-color: whitesmoke;
+  color:rgb(4, 4, 26);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  width: 30%;
+  margin: 150px auto ;
+  display: flex;
+  justify-content: center;
+
+}
+
+button:hover {
+  background-color: #740e503a;
+}
+  
+  .Rectangle10,
+  .Rectangle11,
+  .Rectangle12 {
+    position: absolute;
+    background: #F8F2F5;
+    box-shadow: 4px 5px 15px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+  
+  .Rectangle10 {
+    width: 254px;
+    height: 50px;
+    left: 78px;
+    top: 904px;
+    border-radius: 50px;
+  }
+  
+  .Rectangle11 {
+    width: 254px;
+    height: 50px;
+    left: 480px;
+    top: 904px;
+    border-radius: 50px;
+  }
+  
+  .Rectangle12 {
+    width: 254px;
+    height: 50px;
+    left: 850px;
+    top: 904px;
+    border-radius: 50px;
+  }
+  
+  .Or,
+  .Twitter,
+  .Facebook,
+  .Google {
+    position: absolute; 
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Amiko';
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .Or {
+    width: 25px;
+    height: 33px;
+    left: 603px;
+    top: 804px;
+    text-align: center;
+    color: #7F7B7B;
+  }
+  
+  .Twitter {
+    width: 145px;
+    height: 33px;
+    left: 120px;
+    top: 960px;
+    text-align: center;
+    cursor: pointer;
+  
+  }
+  .twitter-image{
+    padding-right: 20px;
+  }
+  .Facebook {
+    width: 110px;
+    height: 33px;
+    left: 550px;
+    top: 960px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .facebook-image {
+
+    padding-right: 20px;
+  }
+  
+  .Google {
+    width: 160px;
+    height: 33px;
+    left: 900px;
+    top: 960px;
+    text-align: center;
+    cursor: pointer;
+  
+  }
+
+  .google-image {
+
+    padding-right: 20px;
+  }
+  
+  .GgGoogle {
+    width: 20px;
+    height: 20px;
+    left: 1117px;
+    top: 934px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+
+  
