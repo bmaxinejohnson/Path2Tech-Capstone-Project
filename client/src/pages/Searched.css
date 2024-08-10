@@ -1,0 +1,63 @@
+/* Container to center and limit width */
+.container {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding for spacing */
+    background: rgba(234, 121, 169,);
+  }
+  
+  /* Adjust the search results to fit within the container */
+  .search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 20px;
+  }
+  
+  /* Recipe card styling */
+  .recipe-card {
+    flex: 1 1 calc(26.67% - 3rem); /* Adjusted flex-basis to be 20% smaller */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    transition: transform 0.3s;
+    box-sizing: border-box; /* Ensure padding and border are included in the flex-basis calculation */
+    cursor: pointer; /* Add pointer cursor on hover */
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .recipe-card h4 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Recipe details styling */
+  .recipe-details {
+    margin-top: 20px;
+  }
+  
+  .recipe-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .recipe-details h2 {
+    text-align: center;
+  }
+  
+  .recipe-details p {
+    text-align: justify;
+    margin-top: 10px;
+  }
+  
