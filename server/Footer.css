@@ -1,0 +1,158 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@700&display=swap');
+
+/* Global styles for .box container */
+.box {
+  position: relative;
+  width: 1441px;
+  height: 580px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #333333; /* Default text color */
+}
+
+.box .rectangle {
+    position: fixed;
+    width: 100%; /* Adjust to cover the entire viewport */
+    height: 100%; /* Adjust to cover the entire viewport */
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 255, 255) 19%,
+      rgba(253, 225, 232, 0.89) 53.17%,
+      rgba(250, 174, 193, 0.71) 86.17%,
+      rgba(245, 88, 128, 0.4) 100%
+    );
+    z-index: -1; 
+}
+
+/* Styles for different sections within .box */
+
+.box .overlap-group {
+  position: absolute;
+  width: 797px;
+  height: 83px;
+  top: 87px;
+  left: 45px;
+}
+
+.box .contact-us,
+.box .text-wrapper,
+.box .helpful-links,
+.box .services-support,
+.box .element,
+.box .about-us-more-search {
+  position: absolute;
+  font-family: 'Koulen', sans-serif; /* Apply Koulen font */
+  font-weight: 400; /* Default font weight */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .contact-us {
+  width: 302px;
+  top: 3px;
+  left: 0;
+  font-size: 35px;
+  color: #fb056d; /* Specific text color */
+}
+
+.box .text-wrapper {
+  width: 323px;
+  top: 3px;
+  left: 278px;
+  font-size: 35px;
+  color: #fb056d; /* Specific text color */
+}
+
+.box .helpful-links {
+  width: 302px;
+  top: 0;
+  left: 495px;
+  font-size: 35px;
+  text-align: center;
+  color: #fb056d; /* Specific text color */
+}
+
+.box .services-support {
+  width: 184px;
+  top: 226px;
+  left: 599px;
+  font-family: 'Amiko', sans-serif; /* Apply Amiko-Bold font */
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #333333; /* Specific text color */
+}
+
+.box .element {
+  width: 204px;
+  top: 226px;
+  left: 78px;
+  font-family: 'Amiko', sans-serif; /* Apply Amiko-Bold font */
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333; /* Specific text color */
+}
+
+.box .about-us-more-search {
+  width: 135px;
+  top: 226px;
+  left: 323px;
+  font-family: 'Amiko', sans-serif; /* Apply Amiko-Bold font */
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333; /* Specific text color */
+}
+
+.box .gg-phone {
+  position: absolute;
+  width: 24px;
+  height: 26px;
+  top: 227px;
+  left: 45px;
+}
+
+.box .ic-baseline-email {
+  position: absolute;
+  width: 24px;
+  height: 26px;
+  top: 280px;
+  left: 47px;
+}
+
+.box .LO-GO {
+  position: absolute;
+  width: 253px;
+  height: 276px;
+  top: 142px;
+  left: 1045px;
+}
+
+/* Social media icons */
+.box .ri-instagram-fill,
+.box .ic-baseline-facebook,
+.box .mdi-twitter {
+  position: absolute;
+  width: 48px;
+  height: 52px;
+  top: 527px;
+  background-size: 100% 100%;
+}
+
+.box .ri-instagram-fill {
+  left: 682px;
+  background-image: url(./img/ri-instagram-fill.svg); /* Adjust path to your icon */
+}
+
+.box .ic-baseline-facebook {
+  left: 744px;
+  background-image: url(./img/ic-baseline-facebook.svg); /* Adjust path to your icon */
+}
+
+.box .mdi-twitter {
+  left: 620px;
+  background-image: url(./img/mdi-twitter.svg); /* Adjust path to your icon */
+}
