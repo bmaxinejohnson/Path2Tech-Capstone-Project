@@ -1,0 +1,72 @@
+.card-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0.3px;
+  bottom: 0.2px;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 12px;
+  background: linear-gradient(180deg, #83c8d7, #fff 56%);
+}
+.food-image {
+  margin: 0;
+  height: 81px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 47px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.food-image-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) 0 var(--padding-5xs);
+}
+.meal-title-description {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslategray);
+  z-index: 1;
+}
+.recipe-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-31xl-1) var(--padding-smi) var(--padding-15xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-66xl-7);
+  min-width: 162px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre-semibold);
+}
+@media screen and (max-width: 1050px) {
+  .food-image {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .food-image {
+    font-size: var(--font-size-5xl);
+  }
+  .meal-title-description {
+    font-size: var(--font-size-xl);
+  }
+  .recipe-card {
+    gap: var(--gap-24xl);
+  }
+}

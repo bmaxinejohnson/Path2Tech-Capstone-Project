@@ -1,0 +1,88 @@
+.shape-with-text1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.culinarycreathers,
+.our-story,
+.log-in {
+  text-decoration: none;
+  position: absolute;
+  margin: 0 !important;
+  color: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.log-in {
+  bottom: 70px;
+  right: 10%;
+  text-transform: capitalize;
+  min-width: 102px;
+}
+.culinarycreathers {
+  text-align: left;
+}
+.culinarycreathers {
+  width: 620px;
+  bottom: 46.2px;
+  left: 16.9px;
+  font-size: var(--font-size-26xl);
+  font-family: var(--font-shrikhand);
+  text-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
+}
+.our-story {
+  right: 20%;
+  bottom: 70px;
+  text-transform: capitalize;
+  min-width: 121px;
+}
+.navigation-icon,
+.navigation-icon1 {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  margin: 0 !important;
+  top: 30.1px;
+  right: 251px;
+  transform: rotate(-0.1deg);
+  z-index: 1;
+}
+.navigation-icon {
+  right: 5%;
+  bottom: 46.4px;
+}
+.header {
+  align-self: stretch;
+  height: 133.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xl-8) var(--padding-12xs);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-amiko);
+}
+@media screen and (max-width: 1050px) {
+  .culinarycreathers {
+    font-size: var(--font-size-17xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .log-in {
+    font-size: var(--font-size-base);
+  }
+  .culinarycreathers {
+    font-size: var(--font-size-8xl);
+  }
+  .our-story {
+    font-size: var(--font-size-base);
+  }
+}
